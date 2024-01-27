@@ -8,3 +8,33 @@ Real Simple SSL
 SSL INSECURE CONTENT FIXER
 SEARCH REPLACE 
 BETTER SEARCH REPLACE 
+================================================================
+
+
+http://ilamed.org/
+https://dermalyn.in/
+https://cosconindia.com/
+
+
+
+
+WEBSITE URL FOR CHECKING NON SECURE SSL
+https://www.whynopadlock.com/
+https://www.jitbit.com/
+https://www.keycdn.com/
+https://www.cloudflare.com/
+
+
+
+PLUGIN NAME
+Real Simple SSL
+SSL INSECURE CONTENT FIXER
+SEARCH REPLACE 
+BETTER SEARCH REPLACE 
+
+
+
+#header.homepage {
+    padding-bottom: 70px;
+    background: url(/images/wave-bottom.svg) no-repeat bottom/100%,linear-gradient(135deg,#168af0 0%,#8b4ba2 100%);
+}
