@@ -3,3 +3,7 @@ Design Important Link
 2. https://www.toptal.com/
 3. https://unsplash.com/
 4. https://pixlr.com/editor/
+
+
+    padding-bottom: 70px;
+    background: url('https://www.jitbit.com/images/wave-bottom.svg') no-repeat bottom/100%,linear-gradient(135deg,#168af0 0%,#8b4ba2 100%);
