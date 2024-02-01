@@ -11,6 +11,15 @@ Design Important Link
 https://apschelms.e-pragati.in/
 
 
-
+=====================================new_one=======================================================================
     padding-bottom: 70px;
     background: url('https://www.jitbit.com/images/wave-bottom.svg') no-repeat bottom/100%,linear-gradient(135deg,#168af0 0%,#8b4ba2 100%);
+
+
+
+
+
+
+=====================================new_one=======================================================================
+    padding-bottom: 70px;
+    background: bottom/100%,linear-gradient(135deg,#d8892a 50%,#f7e2cb 50%) !important;	
