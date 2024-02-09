@@ -1,1 +1,164 @@
+<script>
+ 		$(document).ready(function() {
+		$('.chat-box').fadeIn(5000).animate({"bottom":"7px"},400);
+		$( ".arrow-div" ).click(function() {
+  			$(".chat-arrow").toggleClass( "down" ).fadeIn('slow');
+			$('.chat-box').toggleClass("sldown").fadeIn('slow');
+		});
+    		//$(".chat-box").slideUp('slow');
+		});
+</script>
 
+		
+<div class="chat-box">
+<div class="arrow-div">
+<!--<p>Quick Enquiry</p>-->
+<p><img src="https://ilamed.org/wp-content/uploads/2022/12/enquiry-ilamed-img3-2022.gif" width="169" height="45" alt=""/></p>
+<div class="chat-arrow"></div>
+</div>
+<div class="chat-head">
+<p class="heading">Course Coordinator</p>
+<p>Dear Sir/Madam, please leave your contact details with us, so as to make us contact you asap. Thanks</p>
+</div>
+<script language="javascript">
+        var campaign = 'Delhi Campaign';
+        var redirect_url = 'https://ilamed.org/thank-you/';
+    </script>
+    <script src="https://leadmanagement.ilamed.org/leads/" ></script>  
+</div>
+
+
+
+
+<body data-new-gr-c-s-check-loaded="14.1154.0" data-gr-ext-installed="">document.write('<style>
+		.lead-button {
+			display: inline-block;
+			cursor: pointer;
+			position: relative;
+			transition: padding-right .3s ease-out;
+		}
+
+		.lead-button.lead-loading {
+			padding-right: 40px;
+		}
+
+		.lead-button.lead-loading:after {
+			content: "";
+			position: absolute;
+			border-radius: 100%;
+			right: 6px;
+			top: 50%;
+			width: 0px;
+			height: 0px;
+			margin-top: -2px;
+			border: 2px solid rgba(255, 255, 255, 0.5);
+			border-left-color: #FFF;
+			border-top-color: #FFF;
+			animation: spin .6s infinite linear, grow .3s forwards ease-out;
+		}
+
+		@keyframes spin {
+			to {
+				transform: rotate(359deg);
+			}
+		}
+
+		@keyframes grow {
+			to {
+				width: 14px;
+				height: 14px;
+				margin-top: -8px;
+				right: 13px;
+			}
+		}
+	</style>
+	<div id="leadStatus"></div>
+	<form action="/leads/" id="LeadIndexForm" onsubmit="event.returnValue = false; return false;" method="post"
+		accept-charset="utf-8">
+		<div style="display: block !important;"><input type="hidden" name="_method" value="POST"></div> <input
+			type="hidden" name="data[Lead][campaign]" id="LeadCampaign">
+		<div class="form-group">
+			<div class="input text required"><label for="LeadName">Name</label><input name="data[Lead][name]"
+					class="form-control" required="required" placeholder="*Name" maxlength="255" type="text"
+					id="LeadName"></div>
+		</div>
+		<div class="form-group">
+			<div class="input email required"><label for="LeadEmail">Email Id</label><input name="data[Lead][email]"
+					class="form-control" required="required" placeholder="*Email-Id" maxlength="255" type="email"
+					id="LeadEmail"></div>
+		</div>
+		<div class="form-group">
+			<div class="input text required"><label for="LeadPhone">Phone</label><input name="data[Lead][phone]"
+					class="form-control" required="required" placeholder="*Mobile Number" maxlength="32" type="text"
+					id="LeadPhone"></div>
+		</div>
+		<div class="form-group">
+			<div class="input select"><label for="LeadQualification">Qualification</label><select
+					name="data[Lead][qualification]" class="form-control" id="LeadQualification">
+					<option value="">Select Qualification</option>
+					<option value="MBBS">MBBS</option>
+					<option value="MD / MS">MD / MS</option>
+					<option value="BDS">BDS</option>
+					<option value="BAMS">BAMS</option>
+					<option value="BUMS">BUMS</option>
+					<option value="BHMS">BHMS</option>
+					<option value="BPT">BPT</option>
+					<option value="Nursing graduate">Nursing graduate</option>
+					<option value="Graduate">Graduate</option>
+					<option value="Others">Others</option>
+				</select></div>
+		</div>
+		<div class="form-group">
+			<div class="input text"><label for="LeadLocation">Location</label><input name="data[Lead][location]"
+					class="form-control" placeholder="Location" maxlength="255" type="text" id="LeadLocation"></div>
+		</div>
+		<div id="divInterestedCourse" class="form-group">
+			<div class="input select"><label for="LeadInterestedCourse">Interested in Course</label><select
+					name="data[Lead][interested_course]" class="form-control" id="LeadInterestedCourse">
+					<option value="">Select Course</option>
+					<option value="IFAAM">International Fellowship in Aesthetic and Anti-Aging Medicine (IFAAM)</option>
+					<option value="FAM">Fellowship in Aesthetic Medicine (FAM)</option>
+					<option value="FMC">Fellowship in Medical Cosmetology (FMC)</option>
+					<option value="FAAD">Fellowship in Advance Aesthetic Dentistry (FAAD)</option>
+					<option value="FAD">Fellowship in Aesthetic Dentistry (FAD)</option>
+					<option value="MCHT">Masters course in Hair Transplantation (MCHT)</option>
+					<option value="MCCG">Masters Course in Cosmetic Gynaecology (MCCG)</option>
+					<option value="MCDC">Masters Course in Dimple Creation (MCDC)</option>
+					<option value="MCB">Masters Course in Blepharoplasty (MCB)</option>
+					<option value="MCVS">Masters Course in Vitiligo Surgery (MCVS)</option>
+					<option value="PGDCC">Postgraduate Diploma in Clinical Cosmetology (PGDCC)</option>
+					<option value="PGDC">Postgraduate Diploma in Cosmetology (PGDC)</option>
+					<option value="PGDMT">PG Diploma in Medical Trichology (PGDMT)</option>
+					<option value="DALM">Diploma in Laser &amp; Aesthetic Medicine (DALM)</option>
+					<option value="IGBAMS">The Indo-German Board of Aesthetic Medicine and Surgery (IGBAMS)</option>
+					<option value="PALM">Plasma &amp; Laser Aesthetic Medicine (PALM)</option>
+					<option value="CC">Customised Courses</option>
+					<option value="PMU">Permanent Makeup (PMU)</option>
+					<option value="IDMC">Online International Diploma in Medical Cosmetology (IDMC)</option>
+					<option value="OTHERS">Others</option>
+				</select></div>
+		</div>
+		<div class="form-group">
+			<div class="input textarea required"><label for="LeadQuery">Query</label><textarea name="data[Lead][query]"
+					class="form-control" cols="30" rows="4" required="required" placeholder="*Query"
+					id="LeadQuery"></textarea></div>
+		</div>
+		<div class="form-group"> <button id="btnLeadSubmit" class="lead-button" type="submit">Submit</button> </div>
+		<div class="form-group"> <span class="output_message"></span> </div>
+	</form>
+	<script> $(document).ready(function () { if (typeof campaign !== "undefined") { $("#LeadCampaign").val(campaign); }
+	 if (typeof selected_course !== "undefined") { $("#LeadInterestedCourse").val(selected_course); } 
+	 if (typeof hide_course !== "undefined") { if (hide_course == true) { $("#divInterestedCourse").hide(); } } 
+	 $("#LeadIndexForm").bind("submit", function (event) 
+	 { $("#btnLeadSubmit").attr("disabled", "disabled"); $("#btnLeadSubmit").addClass("lead-loading");
+	  $.ajax({ async: true, data: $("#LeadIndexForm").serialize(), dataType: "html", type: "POST", 
+	  url: "https:\/\/leadmanagement.ilamed.org\/leads", success: function (data, textStatus) 
+	  { data = $.parseJSON(data); $("#btnLeadSubmit").attr("disabled", "false"); 
+	  $("#btnLeadSubmit").removeClass("lead-loading"); if (data.status == 1) { $("input[type=text], textarea").val(""); 
+	  if (typeof redirect_url !== "undefined") { window.location.replace("thank-you"); }
+	   else { window.location.replace("thank-you"); } } else { window.location.replace("thank-you"); } },
+	    error: function () { window.location.replace("thank-you"); } }); return false; }); }); </script>
+	');
+
+
+</body>
